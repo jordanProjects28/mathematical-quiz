@@ -23,7 +23,7 @@ Feel free to change the nine numbers and try to find a solution.
 The problem object contains the mathematical functions used to solve the puzzle, 
 as well as two additional utility functions that may be useful in other projects: totalCombinations(numbers, r) and findDuplicates(array).
 
-**Utility Functions**
+**--Utility Functions**
 
 **-totalCombinations(numbers, r)**
 
@@ -39,7 +39,7 @@ The function does not consider the order of the elements. For example, [1, 2, 3]
 Identifies duplicate numbers in an array and counts how many times each number appears.
 Returns an object containing the duplicated values and their respective frequencies.
 
-**Puzzle-Solving Functions**
+**--Puzzle-Solving Functions**
 
 **-combinationFounder(index, numbers, r, data, result)**
 
