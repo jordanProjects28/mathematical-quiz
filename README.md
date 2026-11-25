@@ -35,6 +35,7 @@ Calculates the total number of possible combinations using the following mathema
 The function does not consider the order of the elements. For example, [1, 2, 3] and [3, 2, 1] are considered the same combination.
 
 **-findDuplicates(array)**
+
 Identifies duplicate numbers in an array and counts how many times each number appears.
 Returns an object containing the duplicated values and their respective frequencies.
 
