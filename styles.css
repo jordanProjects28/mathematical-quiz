@@ -139,10 +139,6 @@ body {
   font-weight: bold;
 }
 
-.puzzle .no-result {
-
-}
-
 @media (max-width: 550px) {
 
   .puzzle .nine-numbers .number-strip {
