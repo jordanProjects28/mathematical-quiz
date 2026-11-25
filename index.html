@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mathematical Quiz</title>
+  <link rel="icon" type="image/svg+xml" href="plusSign.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main class="puzzle">
+
+    <h1>Equal Sums Quiz</h1>
+
+    <p class="instructions">
+      Try to arrange the nine numbers below into three groups of three
+      so that <b>all three sums are equal</b>.
+      When you're ready, press Solve to reveal the solution.
+    </p>
+
+    <section class="nine-numbers">
+      <div class="number-strip">
+        <input type="number" class="number-input" value="-7" min="-10" max="10" aria-label="Number 1">
+        <input type="number" class="number-input" value="-6" min="-10" max="10" aria-label="Number 2">
+        <input type="number" class="number-input" value="-5" min="-10" max="10" aria-label="Number 3">
+        <input type="number" class="number-input" value="-3" min="-10" max="10" aria-label="Number 4">
+        <input type="number" class="number-input" value="1" min="-10" max="10" aria-label="Number 5">
+        <input type="number" class="number-input" value="2" min="-10" max="10" aria-label="Number 6">
+        <input type="number" class="number-input" value="4" min="-10" max="10" aria-label="Number 7">
+        <input type="number" class="number-input" value="5" min="-10" max="10" aria-label="Number 8">
+        <input type="number" class="number-input" value="9" min="-10" max="10" aria-label="Number 9">
+      </div>
+    </section>
+
+    <button type="button" id="solveBtn">Solve</button>
+    <p id="error" aria-live="polite"></p>
+
+    <section class="solution">
+      <h2>Solution</h2>
+      <div class="equation">
+        <input class="solution-number" disabled>
+        <span>+</span>
+        <input class="solution-number" disabled>
+        <span>+</span>
+        <input class="solution-number" disabled>
+        <span>=</span>
+        <input class="sum-input" disabled>
+      </div>
+      <div class="equation">
+        <input class="solution-number" disabled>
+        <span>+</span>
+        <input class="solution-number" disabled>
+        <span>+</span>
+        <input class="solution-number" disabled>
+        <span>=</span>
+        <input class="sum-input" disabled>
+      </div>
+      <div class="equation">
+        <input class="solution-number" disabled>
+        <span>+</span>
+        <input class="solution-number" disabled>
+        <span>+</span>
+        <input class="solution-number" disabled>
+        <span>=</span>
+        <input class="sum-input" disabled>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
