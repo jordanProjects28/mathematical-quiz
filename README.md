@@ -1,3 +1,30 @@
+**Equal Sums Quiz**
+
+The objective of this puzzle is to arrange nine unique integers, ranging from -10 to 10, into three groups of three numbers.
+The challenge is to find an arrangement where all three groups have exactly the same sum.
+
+**Quiz Rules**
+
+Rules:
+
+• You must use all nine numbers.
+
+• Each number must be unique.
+
+• Numbers must be integers between -10 and 10.
+
+• All three groups must have the same sum.
+
+Try to solve the puzzle yourself before pressing the Solve button to reveal all possible solutions.
+Feel free to change the nine numbers and try to find a solution.
+
+**JavaScript Mathematical Functions**
+
+The problem object contains the mathematical functions used to solve the puzzle, 
+as well as two additional utility functions that may be useful in other projects: totalCombinations(numbers, r) and findDuplicates(array).
+
+-totalCombinations(numbers, r)
+
 Where numbers is an array of numbers and r represents the number of elements in each combination. 
 Calculates the total number of possible combinations using the following mathematical formula:
 C = n! / ((n-r)! * r! ). 
@@ -25,11 +52,9 @@ data (Array of Numbers): A temporary array that stores the elements of the combi
 
 result (Array of Arrays): Stores all completed combinations.
 
-
 -**printTotalCombinations(numbers, r)**
 
 Generates and returns all possible combinations of a specified size by calling combinationFounder().
-Hey
 
 Arguments:
 
