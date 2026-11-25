@@ -84,3 +84,16 @@ Each key represents a common sum, and its value contains the combinations that p
 
 Arguments:\
 •array (Array of Arrays of Numbers): Contains the combinations that will be grouped according to their sums.
+
+-**solve(array, combinations)**
+
+Finds all possible solutions by identifying groups of combinations that produce the same sum, while ensuring that no number is used more than once.\
+First, calls printTotalCombinations() to generate all possible combinations of the specified size. \
+Then, calls numbersToArray() to group combinations according to their sums.\
+For each common sum, it uses a recursive function with backtracking to identify groups of combinations that do not share any elements.\
+Each valid group must contain exactly the specified number of combinations.
+Finally, removes sums that do not produce any valid solutions and returns an object containing all possible solutions.
+
+Arguments:\
+•array (Array of Numbers): The original array containing the available numbers.\
+•combinations (Number): The required number of elements in each combination and the number of combinations that must form a solution
