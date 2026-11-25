@@ -181,8 +181,8 @@ const problem = {
 
                 if(data.length === combinations){
 
-                solutions[sum].push([...data]);
-                 return;
+                    solutions[sum].push([...data]);
+                    return;
 
                 }
 
