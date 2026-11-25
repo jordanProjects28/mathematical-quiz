@@ -16,7 +16,7 @@ The challenge is to find an arrangement where all three groups have exactly the 
 Try to solve the puzzle yourself before pressing the Solve button to reveal all possible solutions.
 Feel free to change the nine numbers and try to find a solution.
 
-**JavaScript Mathematical Functions**
+# JavaScript Mathematical Functions
 
 The problem object contains the mathematical functions used to solve the puzzle, 
 along with two additional utility functions that may also be useful in other projects: totalCombinations(numbers, r) and findDuplicates(array).
@@ -36,8 +36,7 @@ The function does not consider the order of the elements. For example, [1, 2, 3]
 
 Identifies duplicate numbers in an array and counts how many times each number appears.
 Returns an object containing the duplicated values and their respective frequencies.
-
-**--Puzzle-Solving Functions**
+## --Puzzle-Solving Functions
 
 **-combinationFounder(index, numbers, r, data, result)**
 
