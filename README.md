@@ -1,4 +1,4 @@
-**Equal Sums Quiz**
+# [Equal Sums Quiz](https://jordanprojects28.github.io/mathematical-quiz/)
 
 The objective of this puzzle is to arrange nine unique integers, ranging from -10 to 10, into three groups of three numbers.
 The challenge is to find an arrangement where all three groups have exactly the same sum.
