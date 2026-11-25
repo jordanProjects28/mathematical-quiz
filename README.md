@@ -3,9 +3,7 @@
 The objective of this puzzle is to arrange nine unique integers, ranging from -10 to 10, into three groups of three numbers.
 The challenge is to find an arrangement where all three groups have exactly the same sum.
 
-**Quiz Rules**
-
-Rules:
+# Quiz Rules
 
 • You must use all nine numbers.
 
@@ -21,16 +19,16 @@ Feel free to change the nine numbers and try to find a solution.
 **JavaScript Mathematical Functions**
 
 The problem object contains the mathematical functions used to solve the puzzle, 
-as well as two additional utility functions that may be useful in other projects: totalCombinations(numbers, r) and findDuplicates(array).
+along with two additional utility functions that may also be useful in other projects: totalCombinations(numbers, r) and findDuplicates(array).
 
-**--Utility Functions**
+## --Utility Functions
 
 **-totalCombinations(numbers, r)**
 
-Where numbers is an array of numbers and r represents the number of elements in each combination. 
+Here, numbers is an array of numbers and r represents the number of elements in each combination. 
 Calculates the total number of possible combinations using the following mathematical formula:
 
-**C = n! / ((n-r)! * r! )** 
+**C = n! / ((n-r)! * r!)** 
 
 The function does not consider the order of the elements. For example, [1, 2, 3] and [3, 2, 1] are considered the same combination.
 
@@ -71,7 +69,7 @@ Arguments:\
 -**findPositions(array)**
 
 Identifies repeated values in an array and records the positions (indexes) where they appear.
-It returns an object containing only repeated values as keys and their positions as values of the object.
+It returns an object containing only repeated values as keys and their corresponding positions as values.
 
 Arguments:\
 • array (Array of Numbers): The array in which repeated values will be identified.
@@ -83,7 +81,7 @@ Then, calls findPositions() to identify which combinations have identical sums. 
 Each key represents a common sum, and its value contains the combinations that produce that sum.
 
 Arguments:\
-•array (Array of Arrays of Numbers): Contains the combinations that will be grouped according to their sums.
+• array (Array of Arrays of Numbers): Contains the combinations that will be grouped according to their sums.
 
 -**solve(array, combinations)**
 
@@ -92,7 +90,7 @@ First, calls printTotalCombinations() to generate all possible combinations of t
 Then, calls numbersToArray() to group combinations according to their sums.\
 For each common sum, it uses a recursive function with backtracking to identify groups of combinations that do not share any elements.\
 Each valid group must contain exactly the specified number of combinations.
-Finally, removes sums that do not produce any valid solutions and returns an object containing all possible solutions.
+Finally, it removes sums that do not produce any valid solutions and returns an object containing all possible solutions.
 
 Arguments:\
 •array (Array of Numbers): The original array containing the available numbers.\
