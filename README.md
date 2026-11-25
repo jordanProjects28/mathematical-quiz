@@ -23,7 +23,9 @@ Feel free to change the nine numbers and try to find a solution.
 The problem object contains the mathematical functions used to solve the puzzle, 
 as well as two additional utility functions that may be useful in other projects: totalCombinations(numbers, r) and findDuplicates(array).
 
--totalCombinations(numbers, r)
+**Utility Functions**
+
+**-totalCombinations(numbers, r)**
 
 Where numbers is an array of numbers and r represents the number of elements in each combination. 
 Calculates the total number of possible combinations using the following mathematical formula:
@@ -32,11 +34,11 @@ Calculates the total number of possible combinations using the following mathema
 
 The function does not consider the order of the elements. For example, [1, 2, 3] and [3, 2, 1] are considered the same combination.
 
--findDuplicates(array)
+**-findDuplicates(array)**
 Identifies duplicate numbers in an array and counts how many times each number appears.
 Returns an object containing the duplicated values and their respective frequencies.
 
-Now the functions that solve the quiz :
+**Puzzle-Solving Functions**
 
 **-combinationFounder(index, numbers, r, data, result)**
 
