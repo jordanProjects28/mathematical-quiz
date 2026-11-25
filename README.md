@@ -43,19 +43,19 @@ Now the functions that solve the quiz :
 A recursive function that generates all possible combinations of a specified size.
 
 Arguments:
-• index (Number): The current position in the numbers array. Determines which element will be considered next.
-• numbers (Array of Numbers): The original array containing the numbers from which combinations will be generated.
-• r (Number): The required number of elements in each combination.
-• data (Array of Numbers): A temporary array that stores the elements of the combination currently being constructed.
-• result (Array of Arrays): Stores all completed combinations.
+• index (Number): The current position in the numbers array. Determines which element will be considered next.\
+• numbers (Array of Numbers): The original array containing the numbers from which combinations will be generated.\
+• r (Number): The required number of elements in each combination.\
+• data (Array of Numbers): A temporary array that stores the elements of the combination currently being constructed.\
+• result (Array of Arrays): Stores all completed combinations.\
 
 -**printTotalCombinations(numbers, r)**
 
 Generates and returns all possible combinations of a specified size by calling combinationFounder().
 
 Arguments:
-• numbers (Array of Numbers): The original array containing the available numbers.
-• r (Number): The required number of elements in each combination.
+• numbers (Array of Numbers): The original array containing the available numbers.\
+• r (Number): The required number of elements in each combination.\
 
 -**sumCombinations(array)**
 
