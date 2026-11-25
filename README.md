@@ -42,27 +42,27 @@ Now the functions that solve the quiz :
 
 A recursive function that generates all possible combinations of a specified size.
 
-Arguments:
+Arguments:\
 • index (Number): The current position in the numbers array. Determines which element will be considered next.\
 • numbers (Array of Numbers): The original array containing the numbers from which combinations will be generated.\
 • r (Number): The required number of elements in each combination.\
 • data (Array of Numbers): A temporary array that stores the elements of the combination currently being constructed.\
-• result (Array of Arrays): Stores all completed combinations.\
+• result (Array of Arrays): Stores all completed combinations.
 
 -**printTotalCombinations(numbers, r)**
 
 Generates and returns all possible combinations of a specified size by calling combinationFounder().
 
-Arguments:
+Arguments:\
 • numbers (Array of Numbers): The original array containing the available numbers.\
-• r (Number): The required number of elements in each combination.\
+• r (Number): The required number of elements in each combination.
 
 -**sumCombinations(array)**
 
 Calculates the sum of each individual combination in an array of combinations.
 It returns a new array containing the sum of each combination.
 
-Arguments:
+Arguments:\
 • array (Array of Arrays of Numbers): Contains the combinations whose sums need to be calculated.
 
 -**findPositions(array)**
@@ -70,7 +70,7 @@ Arguments:
 Identifies repeated values in an array and records the positions (indexes) where they appear.
 It returns an object containing only repeated values as keys and their positions as values of the object.
 
-Arguments:
+Arguments:\
 • array (Array of Numbers): The array in which repeated values will be identified.
 
 -**numbersToArray(array)**
@@ -79,5 +79,5 @@ Groups combinations that produce identical sums. First, calls sumCombinations() 
 Then, calls findPositions() to identify which combinations have identical sums. Finally, uses the returned indexes to group the original combinations into an object. 
 Each key represents a common sum, and its value contains the combinations that produce that sum.
 
-Arguments:
+Arguments:\
 •array (Array of Arrays of Numbers): Contains the combinations that will be grouped according to their sums.
